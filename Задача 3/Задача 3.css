@@ -1,0 +1,61 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	width: 500px;
+	height: auto;
+	padding: 10px;
+	box-shadow: 2px 2px 2px 2px rgb(134, 134, 134);
+	margin: 20px auto;
+}
+.form-chat {
+	display: flex;
+	justify-content: space-between;
+}
+.form-input {
+	border: 3px solid #8FE2FA;
+    padding: 7px 5px;
+	width: 80%;
+	margin-right: 10px;
+	outline: none;
+}
+.form-input:focus {
+	border: 3px solid #31C5F0;
+}
+.form-btn {
+	border: none;
+	background-color: #8FE2FA;
+	padding: 0px 5px;
+	width: 30%;
+	cursor: pointer; 
+}
+.form-btn:hover {
+	background-color: #31C5F0;
+}
+.wrapper-chat {
+	overflow: auto;
+	border: 3px solid #8FE2FA;
+	padding: 5px;
+	margin-top: 12px;
+	height: 400px;
+}
+.message {
+	border: 3px solid #8FE2FA;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 7px;
+	align-self: flex-end;
+} 
+.geoMess {
+    color: #8FE2FA;
+    text-decoration: none;
+}
+.user-message {
+	display: flex;
+	flex-flow: column wrap;
+}
+.geolocation {
+	margin-left: 6px;
+}
